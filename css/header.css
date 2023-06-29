@@ -46,7 +46,7 @@
    flex-wrap: wrap;
     flex-direction: row-reverse;
   }
-  .button:hover {
+  .button {
     background-color: #2196F3;
   display: block;
   border-radius: 5px;
