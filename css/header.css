@@ -1,5 +1,4 @@
 
-  /* Стилі для header-nav */
   .header-nav {
     display: flex;
     min-width: 1170px;
@@ -34,3 +33,23 @@
     padding: 80px 0px 0px 0px;
     margin-left: 90px;
   }
+  .header-main {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+    gap: 10px;
+    color: rgb(255, 255, 255);
+   
+    flex-direction: row-reverse;
+  }
+  .button {
+    text-align: center;
+    background-color: #2196F3;
+    display: block;
+    border-radius: 5px;
+    width: 150px;
+    height: 70px;
+  }
+ 
