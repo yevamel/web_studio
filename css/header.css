@@ -1,0 +1,36 @@
+
+  /* Стилі для header-nav */
+  .header-nav {
+    display: flex;
+    min-width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+    padding: 80px;
+  }
+  
+  .header-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .header-nav-contacts {
+    display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  }
+  .header-nav-list:hover::before {
+    content: url("/img/finger\ 1.png");
+    padding: 70px 0px 0px 0px;
+    margin-left: 90px;
+  }
+  .header-nav-contacts:hover::before {
+    content: url(/img/Group.png);
+    padding: 80px 0px 0px 0px;
+    margin-left: 90px;
+  }
