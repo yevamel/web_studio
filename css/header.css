@@ -1,55 +1,54 @@
+.logo {
+  padding-right: 400px;
+}
 
-  .header-nav {
-    display: flex;
-    min-width: 1170px;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 75px;
-    padding: 80px;
-  }
-  
-  .header-nav-list {
-    display: flex;
-    list-style: none;
-    gap: 60px;
-    align-items: center;
-    font-size: 16px;
-    line-height: 19px;
-  }
+.header-nav {
+  display: flex;
+  min-width: 1170px;
+  margin: 80px;
+}
+.header-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  align-items: center;
+  font-size: 30px;
+  line-height: 19px;
+}
 
-  .header-nav-contacts {
-    display: flex;
+.header-nav-contacts {
+  display: flex;
   align-items: center;
   gap: 40px;
   list-style: none;
-  }
-  .header-nav-list:hover::before {
-    content: url("/img/finger\ 1.png");
-    padding: 70px 0px 0px 0px;
-    margin-left: 90px;
-  }
-  .header-nav-contacts:hover::before {
-    content: url(/img/Group.png);
-    padding: 80px 0px 0px 0px;
-    margin-left: 90px;
-  }
-  .header-main {
-    height: 600px;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(56, 54, 54);
-    gap: 10px;
-    color: rgb(255, 255, 255);
-   font-size: 200%;
-   flex-wrap: wrap;
-    flex-direction: row-reverse;
-  }
-  .button {
-    background-color: #2196F3;
-  display: block;
+  color: black;
+  font-size: 30px;
+  padding-left: 344px;
+}
+.header-nav-list:hover {
+  color: #2196f3;
+}
+.header-nav-contacts:hover {
+  color: #2196f3;
+}
+.header-main {
+  background-color: rgb(54, 56, 56);
+  padding: 0 auto;
+  height: 600px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+  font-size: 200%;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.button {
+  display: flexbox;
+  background-color: #2196f3;
   border-radius: 5px;
   width: 150px;
-  height: 70px;
-  }
+  height: 50px;
+}

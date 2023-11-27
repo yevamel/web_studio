@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  background-color: #2f303a;
+  height: 252px;
+  margin: 0 auto;
+}
+.footer-info {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 200px;
+  padding-top: 25px;
+}
+.footer-logo {
+  padding-left: 200px;
+}

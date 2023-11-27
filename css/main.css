@@ -1,0 +1,47 @@
+.adventeges-container {
+  display: flex;
+  gap: 130px;
+  justify-content: center;
+  padding: 40px;
+}
+.adventeges-text {
+  width: 255px;
+  height: 292px;
+  font-size: 24px;
+}
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 36px;
+}
+.foto-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 50px 100px;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 120px;
+}
+.team-foto {
+  width: 270px;
+  height: 260px;
+}
+.info {
+  font-size: 30px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 36px;
+  padding-bottom: 25px;
+}
