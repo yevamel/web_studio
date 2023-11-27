@@ -8,6 +8,10 @@
   width: 255px;
   height: 292px;
   font-size: 24px;
+  color: rgb(66, 64, 64);
+}
+.adventeges-text:hover {
+  color: rgb(0, 0, 0);
 }
 .main-text {
   display: flex;
@@ -23,6 +27,9 @@
 }
 .card {
   margin: 50px 100px;
+}
+.card:hover {
+  box-shadow: 10px 8px 7px blue;
 }
 .team {
   display: flex;
